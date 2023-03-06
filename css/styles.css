@@ -10,10 +10,23 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.bookmark-icon {
+  height: 50px;
+  width: auto;
+  position: absolute;
+  left: 88%;
+  top: -20px;
+}
+
+.bookmark-flexbox {
+  position: relative;
+}
+
 .overall-question {
-  margin: 0px;
   padding: 10px;
-  border: 5px solid black;
+  margin: 30px;
+  border: 5px solid #134b5f;
+  background-color: aliceblue;
 }
 
 .question-and-button {
@@ -24,7 +37,8 @@ h1 {
 }
 
 .question {
-  padding: 0 0 10px; 0;
+  padding: 0 0 10px 0;
+  font-weight: bold;
 }
 
 .show-answer {
@@ -34,4 +48,9 @@ h1 {
 .tags {
   display: flex;
   justify-content: right;
+  flex-wrap: wrap;
+}
+
+.tag-button {
+  margin: 0 5px;
 }
