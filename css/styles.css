@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: center;
   background-color: lightblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  text-shadow: 3px 3px 5px turquoise;
 }
 
 .bookmark-icon {
@@ -66,4 +73,25 @@ h1 {
 .tag-button:hover {
   background-color: #77dfed;
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  b
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: #b5fff9;
+  opacity: 0.8;
+  border-top: 5px solid black;
+}
+
+
+.home-button,
+.bookmark-button,
+.profile-button {
+  height: 40px;
 }
