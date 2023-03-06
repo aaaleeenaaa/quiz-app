@@ -45,6 +45,11 @@ h1 {
   padding: 10px;
 }
 
+.show-answer:hover {
+  background-color: #6fb3de;
+  cursor: pointer;
+}
+
 .tags {
   display: flex;
   justify-content: right;
@@ -52,5 +57,13 @@ h1 {
 }
 
 .tag-button {
+  font-size: 10px;
   margin: 0 5px;
+  background-color: lightblue;
+  border: 2px dotted grey;
+}
+
+.tag-button:hover {
+  background-color: #77dfed;
+  cursor: pointer;
 }
