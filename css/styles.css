@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.overall-question {
+  margin: 0px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.question-and-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 50px 10px;
+}
+
+.question {
+  padding: 0 0 10px; 0;
+}
+
+.show-answer {
+  padding: 10px;
+}
+
+.tags {
+  display: flex;
+  justify-content: right;
+}
