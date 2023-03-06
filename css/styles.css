@@ -7,11 +7,12 @@
 h1 {
   text-align: center;
   background-color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .overall-question {
   margin: 0px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   border: 5px solid black;
   display: flex;
   flex-direction: column;
